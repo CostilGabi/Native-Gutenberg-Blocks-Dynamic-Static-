@@ -1,0 +1,32 @@
+{
+	"$schema": "https://schemas.wp.org/trunk/block.json",
+	"apiVersion": 3,
+	"name": "gbc/blockcpt",
+	"version": "0.1.0",
+	"title": "Dynamic Block fetching CPT",
+	"category": "widgets",
+	"icon": "welcome-widgets-menus",
+	"description": "Dynamic Block fetching a basic custom post type with their taxonomies(categories).",
+	"example": {},
+	"supports": {
+		"html": false
+	},
+    "attributes": {
+        "contentTitle": {
+            "type": "string",
+            "default": ""
+        },
+        "contentDescription": {
+            "type": "string",
+            "default": ""
+        },
+        "secondTitle": {
+            "type": "string",
+            "default": ""
+        }
+    },
+	"textdomain": "gbc",
+	"editorScript": "file:./index.js",
+	"editorStyle": "file:./index.css",
+	"style": "file:./style-index.css"
+}

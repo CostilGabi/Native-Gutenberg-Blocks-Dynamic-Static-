@@ -1,0 +1,15 @@
+.wp-block-create-block-blockcpt {
+	background-color: transparent;
+	padding: 2px;
+    border: 1px dotted red;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    span {
+        font-size: 12px;
+        font-style: italic;
+        opacity: .5;
+    }
+}

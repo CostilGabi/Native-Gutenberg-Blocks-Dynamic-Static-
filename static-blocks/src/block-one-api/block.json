@@ -1,0 +1,31 @@
+{
+    "$schema": "https://schemas.wp.org/trunk/block.json",
+    "apiVersion": 2,
+    "name": "gbc/apiblock",
+    "title": "Api block static",
+    "category": "widgets",
+    "icon": "welcome-widgets-menus",
+    "description": "Fetching from a custom endpoint api (Keep this in mind this is static)",
+    "keywords": [ "api", "custom", "wpr", "onion" ],
+    "version": "1",
+    "textdomain": "gbc",
+    "editorScript": "file:./index.js",
+    "attributes": {
+        "contentTitle": {
+            "type": "string",
+            "default": ""
+        },
+        "contentDescription": {
+            "type": "string",
+            "default": ""
+        },
+        "secondTitle": {
+            "type": "string",
+            "default": ""
+        },
+        "postdata": {
+            "type": "object",
+            "default": []
+        }
+    }
+}
