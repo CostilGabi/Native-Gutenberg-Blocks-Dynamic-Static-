@@ -65,7 +65,6 @@ Navigate to `src` and create a new folder with the name of your desired block.
 #### Create for static:
 - block.json (copy json from others blocks and modify to your needs) -> used for adding the block to Gutenberg
 - index.js -> where you register `registerBlockType` (here we need to add `edit` & `save` function). This can be splited if there is too much code into `edit.js` and `save.js` (similar as in dynamic)
-- Inside that php file that you created, add your render function and display your logic (check the two examples)
 
 Since our `index.js` is doing our rendering for the Front end, we don't need another php file. So all you need to do is just to register the block.
 
@@ -75,3 +74,16 @@ Navigate to `includes/register-blocks.php` and add this code:
       UP_PLUGIN_DIR . 'build/block-two-content/block.json'
   );
 ```
+
+## Documentation
+Please check this Documentations that will give you more in depth look at all the procedures.
+
+[@wordpress/create-block](https://developer.wordpress.org/block-editor/reference-guides/packages/packages-create-block/)
+
+[Block Registration](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-registration/)
+
+[Metadata in block.json](https://developer.wordpress.org/block-editor/reference-guides/block-api/block-metadata/)
+
+[Create Dynamic Blocks](https://developer.wordpress.org/block-editor/how-to-guides/block-tutorial/creating-dynamic-blocks/)
+
+`Happy coding ends here.` - Gabi Costil
