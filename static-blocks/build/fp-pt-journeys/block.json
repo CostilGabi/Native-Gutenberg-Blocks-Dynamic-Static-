@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wpr/journeys",
+  "title": "RK - Journeys (Front Page)",
+  "category": "widgets",
+  "icon": "welcome-widgets-menus",
+  "description": "Journeys part for Frontpage",
+  "keywords": [
+    "journeys",
+    "custom",
+    "wpr",
+    "custopost"
+  ],
+  "version": "1",
+  "textdomain": "wpr",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "contentTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "contentDescription": {
+      "type": "string",
+      "default": ""
+    },
+    "secondTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "postdata": {
+      "type": "object",
+      "default": []
+    }
+  }
+}

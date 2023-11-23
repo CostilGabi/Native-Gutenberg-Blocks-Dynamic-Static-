@@ -1,0 +1,32 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wpr/fpthree",
+  "title": "Frontpage All 3 Custom Post types",
+  "category": "text",
+  "icon": "heading",
+  "description": "All 3 custom post type for Frontpage.",
+  "keywords": [
+    "articles",
+    "custom",
+    "header",
+    "articles-header"
+  ],
+  "version": "1",
+  "textdomain": "wpr",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "contentTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "contentDescription": {
+      "type": "string",
+      "default": ""
+    },
+    "phpContent": {
+      "type": "string",
+      "default": ""
+    }
+  }
+}

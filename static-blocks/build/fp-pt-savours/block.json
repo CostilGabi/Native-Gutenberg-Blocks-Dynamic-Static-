@@ -1,0 +1,36 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 2,
+  "name": "wpr/savours",
+  "title": "RK - Savours (Front Page)",
+  "category": "widgets",
+  "icon": "welcome-widgets-menus",
+  "description": "Savours part for Frontpage",
+  "keywords": [
+    "savours",
+    "custom",
+    "wpr",
+    "custopost"
+  ],
+  "version": "1",
+  "textdomain": "wpr",
+  "editorScript": "file:./index.js",
+  "attributes": {
+    "contentTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "contentDescription": {
+      "type": "string",
+      "default": ""
+    },
+    "secondTitle": {
+      "type": "string",
+      "default": ""
+    },
+    "postdata": {
+      "type": "object",
+      "default": []
+    }
+  }
+}
